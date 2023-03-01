@@ -11,7 +11,7 @@ class HomeController extends Controller {
   String get selectedFilter => _selectedFilter;
 
   final HomePresenter homePresenter;
-  // Presenter should always be initialized this way
+
   HomeController(usersRepo)
       : _tabController = PersistentTabController(initialIndex: 0),
         _selectedFilter = 'All',
@@ -19,7 +19,6 @@ class HomeController extends Controller {
         super();
 
   @override
-  // this is called automatically by the parent class
   void initListeners() {}
 
   void onFilterChanged(String filter) {
