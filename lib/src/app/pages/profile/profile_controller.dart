@@ -1,6 +1,6 @@
 import 'package:flutter_clean_architecture/flutter_clean_architecture.dart';
 
-class HomePresenter extends Presenter {
+class ProfileController extends Controller {
   @override
-  void dispose() {}
+  void initListeners() {}
 }

@@ -1,6 +1,6 @@
 import 'package:flutter_clean_architecture/flutter_clean_architecture.dart';
 
-import './src/app/pages/home/home_view.dart';
+import 'src/app/pages/main/main_view.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'Flutter Clean Demo Page'),
+      home: const MainPage(),
     );
   }
 }

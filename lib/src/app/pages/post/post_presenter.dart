@@ -1,6 +1,6 @@
 import 'package:flutter_clean_architecture/flutter_clean_architecture.dart';
 
-class HomePresenter extends Presenter {
+class PostPresenter extends Presenter {
   @override
   void dispose() {}
 }
