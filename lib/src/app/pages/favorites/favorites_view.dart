@@ -21,7 +21,7 @@ class FavoritesPageState extends ViewState<FavoritesPage, FavoritesController> {
       return Scaffold(
           key: globalKey,
           body: Container(
-            color: Colors.black,
+            color: Colors.green,
           ));
     });
   }

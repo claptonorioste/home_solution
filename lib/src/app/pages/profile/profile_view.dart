@@ -21,7 +21,7 @@ class ProfilePageState extends ViewState<ProfilePage, ProfileController> {
       return Scaffold(
           key: globalKey,
           body: Container(
-            color: Colors.black,
+            color: Colors.yellow,
           ));
     });
   }
